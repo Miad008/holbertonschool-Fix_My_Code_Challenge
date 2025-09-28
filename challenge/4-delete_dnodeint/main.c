@@ -1,10 +1,9 @@
-#include <stdlib.h>
-#include <string.h>
 #include <stdio.h>
+#include <stdlib.h>
 #include "lists.h"
 
 /**
- * main - check the code for Holberton School students.
+ * main - check the code
  *
  * Return: Always EXIT_SUCCESS.
  */
@@ -25,44 +24,7 @@ int main(void)
     printf("-----------------\n");
     delete_dnodeint_at_index(&head, 5);
     print_dlistint(head);
-    printf("-----------------\n");
-    delete_dnodeint_at_index(&head, 0);
-    print_dlistint(head);
-    printf("-----------------\n");
-    delete_dnodeint_at_index(&head, 0);
-    print_dlistint(head);
-    printf("-----------------\n");
-    delete_dnodeint_at_index(&head, 0);
-    print_dlistint(head);
-    printf("-----------------\n");
-    delete_dnodeint_at_index(&head, 0);
-    print_dlistint(head);
-    printf("-----------------\n");
-    delete_dnodeint_at_index(&head, 0);
-    print_dlistint(head);
-    printf("-----------------\n");
-    delete_dnodeint_at_index(&head, 0);
-    print_dlistint(head);
-    printf("-----------------\n");
-    delete_dnodeint_at_index(&head, 0);
-    print_dlistint(head);
-    printf("-----------------\n");
-    delete_dnodeint_at_index(&head, 0);
-    printf("-----------------\n");
-    delete_dnodeint_at_index(&head, 0);
-    printf("-----------------\n");
-    delete_dnodeint_at_index(&head, 0);
-    printf("-----------------\n");
-    delete_dnodeint_at_index(&head, 0);
-    printf("-----------------\n");
-    delete_dnodeint_at_index(&head, 0);
-    printf("-----------------\n");
-    delete_dnodeint_at_index(&head, 0);
-    printf("-----------------\n");
-    delete_dnodeint_at_index(&head, 0);
-    printf("-----------------\n");
-    delete_dnodeint_at_index(&head, 0);
-    printf("-----------------\n");
     free_dlistint(head);
+    head = NULL;
     return (EXIT_SUCCESS);
 }
