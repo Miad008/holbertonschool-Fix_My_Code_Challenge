@@ -1,5 +1,5 @@
-#!/usr/bin/env ruby
-# Sort numbers and strings correctly
+# 2-sort.rb
+# Sort numbers only, ignore non-numeric arguments
 
-puts ARGV.sort_by { |arg| Integer(arg) rescue arg }
+puts ARGV.map { |arg| Integer(arg) rescue nil }.compact.sort
 
