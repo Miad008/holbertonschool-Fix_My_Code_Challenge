@@ -11,9 +11,6 @@
 int main(void)
 {
     dlistint_t *head;
-    dlistint_t *tmp;
-    dlistint_t *add;
-    unsigned int n;
 
     head = NULL;
     add_dnodeint_end(&head, 0);
